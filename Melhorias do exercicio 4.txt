@@ -1,0 +1,31 @@
+O novo código tá muito mais organizado e eficiente do que o anterior! Ele não só exibe os alunos aprovados e reprovados, mas também melhora a forma como esses dados são manipulados e até os salva de um jeito mais profissional.
+
+Principais Melhorias:
+- Código mais organizado e modular
+Antes, o código lia os arquivos direto dentro do with open(), o que não era muito eficiente. Agora, ele separa isso em funções:
+
+ler_alunos(): Lê os arquivos e retorna os dados organizados.
+
+exibir_alunos(): Mostra os dados na tela de forma mais bonita e organizada.
+
+salvar_em_xlsx(): Salva tudo bonitinho num arquivo Excel.
+
+Isso deixa o código mais reutilizável e fácil de entender.
+
+- Leitura mais segura
+Se um dos arquivos (aprovados.txt ou reprovados.txt) não existir, o código agora não quebra. Ele simplesmente avisa o usuário e segue funcionando normalmente.
+
+- Exibição melhorada
+Antes, ele só imprimia os dados de qualquer jeito. Agora, a exibição ficou mais organizada, formatando a nota com duas casas decimais (NF: 7.50 em vez de NF: 7.5). Isso deixa a visualização muito mais clara.
+
+- Adeus .txt, olá Excel!
+Agora, os resultados são salvos em um arquivo Excel (resultados.xlsx), com duas abas separadas:
+
+Uma aba para os aprovados.
+
+Outra aba para os reprovados.
+
+Isso facilita muito na hora de analisar os dados depois, já que planilhas são mais organizadas do que arquivos .txt soltos.
+
+- Código mais estável
+Antes, se qualquer erro acontecesse (arquivo faltando, erro ao ler um dado, etc.), o código simplesmente quebrava. Agora, ele trata esses erros e avisa o usuário sem parar o programa.

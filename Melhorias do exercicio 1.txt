@@ -1,0 +1,14 @@
+esse código está bem mais caprichado que o primeiro e traz várias melhorias legais.
+
+Pra começar, ele faz a validação das notas. No primeiro código, qualquer coisa que a pessoa digitasse era aceita — podia ser letra, número fora do limite, o que fosse. Já no segundo, ele só aceita notas de 0 a 10 e ainda entende se a pessoa digitar vírgula no lugar do ponto. Além disso, ele arredonda a nota pra duas casas decimais, deixando tudo mais bonitinho e padronizado.
+
+Outra mudança bacana é que, em vez de salvar os dados num arquivo .txt, agora ele salva direto num arquivo Excel (.xlsx). Isso facilita muito na hora de visualizar e organizar as informações, tanto no Excel quanto usando o próprio Python depois.
+
+O código também está bem mais organizado. Foi tudo dividido em funções, o que deixa mais fácil de entender, manter e até reutilizar se precisar. Tem uma função só pra pegar as notas com validação, outra pra salvar os dados no Excel, e uma principal que junta tudo.
+
+Além disso, o novo código usa o pandas, que é uma biblioteca super útil pra quem trabalha com dados em Python. Com ela, dá pra fazer de tudo: cálculos, filtros, gráficos, etc. Isso abre um monte de possibilidades pro futuro.
+
+Outro detalhe legal: ele verifica se o arquivo Excel já existe. Se existir, ele pega os dados antigos e só adiciona os novos, sem apagar nada. No primeiro código, isso era feito meio no escuro, só abrindo o arquivo no modo de adicionar.
+
+E pra fechar, ele dá mensagens mais amigáveis pro usuário. Se a pessoa digitar algo errado, ele avisa certinho o que está errado e, no final, confirma quando os dados são salvos com sucesso. Bem mais tranquilo de usar.
+

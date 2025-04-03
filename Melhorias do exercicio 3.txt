@@ -1,0 +1,19 @@
+O código está muito mais organizado e inteligente do que o primeiro. Ele resolve vários problemas e facilita bastante a vida de quem for usar.
+
+Pra começar, ele não trabalha mais com arquivos .txt, e sim com planilhas do Excel (.xlsx), o que deixa tudo muito mais organizado e fácil de acessar depois. Em vez de salvar os resultados de alunos aprovados e reprovados em textos soltos, ele cria arquivos Excel separados para cada caso (aprovados.xlsx e reprovados.xlsx).
+
+Outra grande melhoria foi a organização do código. No primeiro, tudo acontecia de uma vez, de forma meio bagunçada. Já no segundo, ele está dividido em funções, cada uma com uma tarefa específica. Isso deixa o código mais limpo e fácil de entender:
+
+ler_arquivo(): Lê a planilha do Excel e verifica se existe. Se não existir, já avisa o usuário.
+
+calcular_media(): Faz o cálculo da média do aluno, simples e direto.
+
+solicitar_exame(): Pede a nota do exame e decide se o aluno foi aprovado ou reprovado.
+
+salvar_resultados(): Salva os alunos em planilhas diferentes dependendo do resultado.
+
+Além disso, esse novo código é muito mais seguro. No primeiro, se alguém digitasse uma letra no lugar de um número, o programa travava. Agora, ele verifica se a nota digitada é válida e já pula qualquer erro sem interromper todo o processo.
+
+Outra coisa bacana é que o usuário recebe mensagens mais claras. Se houver um erro, ele avisa exatamente o que aconteceu. Se tudo der certo, ele informa onde os arquivos foram salvos. Isso evita confusão e deixa tudo mais fácil de acompanhar.
+
+Resumindo, esse segundo código deixa os dados mais organizados, evita erros, dá mensagens mais claras e usa planilhas do Excel, que são muito mais fáceis de mexer.

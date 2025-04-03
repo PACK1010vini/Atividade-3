@@ -1,0 +1,19 @@
+O segundo código está bem mais completo e organizado que o primeiro, além de ser mais inteligente no jeito que lida com os dados.
+
+Pra começar, no código original, ele só lia o arquivo notas.txt, calculava a média de cada aluno e jogava o nome deles em três arquivos diferentes: aprovados.txt, exame.txt e reprovados.txt, dependendo da média. Funciona? Funciona. Mas é bem básico e meio bagunçado se você quiser analisar tudo junto depois.
+
+Já o segundo código veio mais profissional. Em vez de sair criando vários arquivos .txt, ele cria uma planilha do Excel (resultados.xlsx) com todos os dados organizadinhos: nome do aluno, média e status (Aprovado, Exame ou Reprovado). Bem mais prático, né?
+
+Além disso, ele é cheio de boas práticas:
+
+Cria funções separadas pra calcular a média, classificar o aluno e processar o arquivo todo. Isso deixa tudo mais limpo e fácil de entender.
+
+Faz tratamento de erros, como por exemplo se o arquivo de entrada não for encontrado ou se alguma linha estiver mal formatada.
+
+Usa o pandas, que é uma biblioteca top pra lidar com dados, e salva o resultado direto num Excel, que é muito mais fácil de ler e trabalhar depois.
+
+Também tem verificação de formato das linhas. Se tiver algum erro nos dados, ele avisa no console, mas não quebra o programa.
+
+Outra coisa boa: o código agora centraliza todos os resultados em um só arquivo, o que é muito mais fácil de compartilhar, visualizar e até usar depois pra relatórios ou gráficos.
+
+Resumindo: o segundo código é mais seguro, mais organizado, mais eficiente e mais útil pra quem realmente quiser analisar os dados dos alunos com facilidade.
